@@ -7,3 +7,8 @@ console.log(person);
 
 person.name = 'jagdish thakare';
 console.log(person.name);
+
+let selector=['red','blue'];
+selector[2]= 1;
+
+console.log(selector.length);

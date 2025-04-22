@@ -12,7 +12,7 @@ let selector=['red','blue'];
 selector[2]= 1;
 console.log(selector.length);
 
-function great(){
-console.log("hello world");
+function great(name,lastname){
+console.log("hello " + name + " " + lastname);
 }
-great();
+great("Jagdish", "Thakare");

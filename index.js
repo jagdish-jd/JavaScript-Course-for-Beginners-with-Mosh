@@ -10,5 +10,9 @@ console.log(person.name);
 
 let selector=['red','blue'];
 selector[2]= 1;
-
 console.log(selector.length);
+
+function great(){
+console.log("hello world");
+}
+great();

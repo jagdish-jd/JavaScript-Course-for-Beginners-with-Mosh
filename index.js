@@ -13,6 +13,6 @@ selector[2]= 1;
 console.log(selector.length);
 
 function great(name,lastname){
-console.log("hello " + name + " " + lastname);
+console.log("hello " + name + ' ' + lastname);
 }
 great("Jagdish", "Thakare");
